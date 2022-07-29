@@ -1,0 +1,359 @@
+
+@media (max-width: 1200px) {
+    .hero .header_logo {
+        display: none;
+    }
+    .header_burger_md {
+        display: none;
+    }
+    .header_network.grid {
+        margin-right: 30px;
+    }
+    .data .sliders {
+        margin-left: 30px;
+    }
+    .love-dishes .container {
+        max-width: 1150px;
+    }
+    .breakfast .container {
+        max-width: 960px;
+    }
+    .salat .container {
+        max-width: 960px;
+    }
+    .vine .container {
+        max-width: 960px;
+    }
+    .maps .container {
+        max-width: 860px;
+    }
+}
+@media (max-width: 1036px) {
+    .header_bottom {
+        display: none;
+        background-color: inherit;
+    }
+    .header {
+        background-color: inherit;
+    }
+    .header_burger_md {
+        display: grid;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        border-top-width: 1px;
+        background-color: #FFFFFF;
+        box-shadow: rgb(0 0 0 / 0%) 0 1px 3px;
+        width: 100vw;
+        height: 80px;
+        z-index: 99;
+        transition: background-color 300ms linear;
+    }
+    .header_burger_md.grid_col-4 {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .header_burger_item {
+        display: inline-block;
+        font-family: Josefin Sans, sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: #691d21;
+    }
+    .header_burger-link svg {
+        max-width: 40px;
+        max-height: 40px;
+    }
+    .hero {
+        padding-top: 70px;
+    }
+    .hero .header_logo {
+        display: block;
+        width: 380px;
+        height: 281px;
+        margin: 0 auto;
+        margin-bottom: 63px;
+    }
+}
+@media (max-width: 991px) {
+    .container {
+        max-width: 930px;
+    }
+    .hero_desc {
+        max-width: 705px;
+    }
+    .line_bottom {
+        margin: 0 auto;
+        max-width: 710px;
+    }
+    .line {
+        padding: 40px 0;
+    }
+    .data .sliders {
+        margin-top: 10px;
+        margin-right: 130px;
+    }
+    .data .sliders--item {
+        height: 500px;
+    }
+    .love-dishes .container {
+        max-width: 950px;
+    }
+    .breakfast .container {
+        max-width: 880px;
+    }
+    .salat .container {
+        max-width: 880px;
+    }
+    .vine .container {
+        max-width: 880px;
+    }
+    .maps .container {
+        max-width: 810px;
+    }
+    .book_link {
+        padding: 15px 0;
+        width: 246px;
+        height: 65px;
+    }
+    .book_online {
+        font-size: 17px;
+    }
+    .order_link {
+        width: 236px;
+        height: 62px;
+    }
+    .order_online {
+        font-size: 19px;
+    }
+    .footer_number {
+        font-size: 21px;
+    }
+    .footer_desc {
+        margin: 80px 0 100px;
+    }
+}
+@media (max-width: 920px) {
+    .grid_col-4 {
+        grid-template-columns: 1fr;
+    }
+    .love-dishes_content-img {
+        margin: 20px 0;
+    }
+
+}
+@media (max-width: 820px) {
+    .love-dishes_content-img {
+        margin: 20px 0;
+    }
+    .grid_col-4 {
+        grid-template-columns: 1fr;
+    }
+    .line_bottom {
+        max-width: 614px;
+    }
+    .maps .container {
+        max-width: 710px;
+    }
+}
+@media (max-width: 778px) {
+    .container {
+        max-width: 710px;
+    }
+    .hero {
+        padding-top: 36px;
+        padding-bottom: 55px;
+    }
+    .data .sliders {
+        margin: 0 25px 0 0;
+    }
+    .data .sliders--item {
+        height: 438px;
+    }
+    .love-dishes .container {
+        max-width: 1150px;
+    }
+    .love-dishes_content-img {
+        margin: 20px 0;
+    }
+    .love-dishes .grid_col-4 {
+        grid-template-columns: 1fr;
+    }
+
+    .breakfast .container {
+        max-width: 710px;
+    }
+    .salat .container {
+        max-width: 710px;
+    }
+    .vine .container {
+        max-width: 710px;
+    }
+    .maps .container {
+        max-width: 710px;
+    }
+    .book_link {
+        padding: 12px 0;
+        width: 236px;
+        height: 59px;
+    }
+    .book_online {
+        font-size: 16px;
+    }
+}
+@media (max-width: 720px) {
+    .hero .header_logo {
+        width: 362px;
+        height: 260px;
+    }
+    .container {
+        max-width: 680px;
+    }
+}
+@media (max-width: 680px) {
+
+    .header_burger_item {
+        font-size: 14px;
+    }
+    .header_burger_md.grid_col-4 {
+     grid-column-gap: 10px;
+    }
+    .hero .header_logo {
+        width: 335px;
+        height: 234px;
+        margin-bottom: 43px;
+    }
+    .container {
+        max-width: 640px;
+    }
+}
+@media (max-width: 600px) {
+    .container {
+        max-width: 490px;
+    }
+
+    .header_burger-link svg {
+        width: 30px;
+        height: 30px;
+    }
+    .header_burger_item {
+        font-size: 12px;
+    }
+    .hero .header_logo {
+        width: 275px;
+        height: 198px;
+    }
+    .hero_desc {
+        font-size: 18px;
+    }
+    .data .container {
+        max-width: 520px;
+    }
+    .data .sliders {
+        margin: 0;
+        gap: 0.4em;
+    }
+    .data .sliders--item {
+        min-width: 249px;
+        height: 399px;
+    }
+    .love-dishes_content-img {
+        max-width: 305px;
+    }
+    .order_online {
+        font-size: 16px;
+    }
+    .order_link {
+        width: 202px;
+        height: 53px;
+        padding: 10px 0;
+    }
+    .breakfast {
+        padding-bottom: 30px;
+    }
+    .breakfast .container {
+        max-width: 580px;
+    }
+    .salat {
+        padding-bottom: 30px;
+    }
+    .salat .container {
+        max-width: 580px;
+    }
+    .vine {
+        padding-bottom: 50px;
+    }
+    .vine .container {
+        max-width: 580px;
+    }
+    .maps .container {
+        max-width: 580px;
+    }
+    .book {
+        padding: 50px 0;
+    }
+    .book_link {
+        padding: 12px 0;
+        width: 209px;
+        height: 57px;
+    }
+    .footer_desc {
+        margin: 51px 0 70px;
+    }
+
+}
+@media (max-width: 540px) {
+    .container {
+        max-width: 530px;
+    }
+    .hero .container {
+        max-width: 510px;
+    }
+    .love-dishes_title {
+        font-size: 26px;
+        margin-bottom: 41px;
+    }
+    .maps .container {
+        max-width: 480px;
+    }
+}
+@media (max-width: 428px) {
+    .container {
+
+    }
+    .hero {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    .hero .header_logo {
+        width: 233px;
+        height: 165px;
+    }
+    .hero_desc {
+        font-size: 18px;
+    }
+    .order_link {
+        width: 189px;
+        height: 50px;
+        padding: 8px 0;
+    }
+    .order_online {
+        font-size: 15px;
+    }
+    .maps .container {
+        max-width: 400px;
+    }
+    .book_link {
+        padding: 10px 0;
+        width: 196px;
+        height: 54px;
+    }
+    .book_online {
+        font-size: 15px;
+    }
+    .footer_number {
+        font-size: 17px;
+    }
+
+}
